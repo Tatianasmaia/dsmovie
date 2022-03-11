@@ -9,6 +9,7 @@ public class MovieDTO {
 	private Double score;
 	private Integer count;
 	private String image;
+	
 	public MovieDTO() {
 		
 	}
@@ -22,7 +23,6 @@ public class MovieDTO {
 	}
 	
 	public MovieDTO(Movie movie) {
-		super();
 		id = movie.getId();
 		title = movie.getTitle();
 		score = movie.getScore();
